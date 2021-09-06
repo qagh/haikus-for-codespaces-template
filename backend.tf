@@ -5,7 +5,7 @@ terraform {
     organization = "example-org-38005b"
 
     workspaces {
-      name = "getting-started"
+      name = "haikus-for-codespaces-template"
     }
   }
 
