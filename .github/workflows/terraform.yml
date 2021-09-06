@@ -53,7 +53,7 @@ on:
 jobs:
   terraform:
     name: 'Terraform'
-    runs-on: self-hosted
+    runs-on: ubuntu-20.04
     environment: production
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
