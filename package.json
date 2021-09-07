@@ -1,5 +1,5 @@
 {
-    "name": "app-service-hello-world",
+    "name": "haikus-for-codespaces",
     "description": "Simple Hello World Node.js sample for Azure App Service",
     "version": "0.0.1",
     "private": true,
@@ -12,10 +12,13 @@
     "dependencies": {
         "ejs": "^3.0.1",
         "express": "^4.17.1",
-        "nodemon": "^2.0.2"
+        "nodemon": "^2.0.2",
+        "npm": "^7.22.0"
     },
     "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-imagemin": "^4.1.0"
-    }
+        "gulp": "^4.0.2",
+        "gulp-imagemin": "^8.0.0"
+    },
+    "main": "index.js",
+    "repository": "https://github.com/QAtestinc/haikus-for-codespaces-template.git"
 }
